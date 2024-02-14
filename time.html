@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title of Website - Name1, Name2, Name3</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Unit Converter</h2>
+    <table width="50%">
+        <tr>
+            <td>
+                <h4>From</h4>
+                <input type="number" id="fromValue">
+                <select id="fromUnit">
+                    <option value="hours">hours</option>
+                    <option value="minutes">minutes</option>
+                    <option value="seconds">seconds</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>To</h4>
+                <input type="number" id="toValue">
+                <select id="toUnit">
+                    <option value="hours">hours</option>
+                    <option value="minutes">minutes</option>
+                    <option value="seconds">seconds</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="convertTime()">Enter</button> 
+            </td>
+        </tr>
+    </table>
+    </body>
+</html>
